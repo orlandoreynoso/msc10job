@@ -9,8 +9,18 @@
 </head>
 <body>
 	<?php // get_template_part( 'template/header', 'menu') ?>
-	<?php get_template_part( 'template/header', 'menumsc') ?>
+	<?php // get_template_part( 'template/header', 'menumsc') ?>
+	<?php 	
+if ( is_front_page() ) {
+   get_template_part( 'template/header', 'menumsc');
+ 
+} else {
+    get_template_part( 'template/header', 'menu');
+}
+
+	?>
 	<?php
+
 /*
 	$clave = get_the_ID();
 	echo $clave;*/

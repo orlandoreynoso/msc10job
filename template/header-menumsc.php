@@ -1,4 +1,4 @@
-<div class="e-menu">
+<div class="e-menucover">
   <!-- Menu exclusivo para excritorio mayores a de 640 pixeles al infinito -->
   <div class="or-logom">
     <?php logoMsc(); ?>
