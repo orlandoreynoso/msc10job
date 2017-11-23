@@ -22,6 +22,9 @@
   <div class="container">
     <div class="row">
       <div class="contenedor-lm-msc">
+        <div class="logocover">
+          <?php logoMsc(); ?>
+        </div>
         <div class="or-menum">
             <nav class="navbar-me">
               <?php showMenuboostrap(); ?>
